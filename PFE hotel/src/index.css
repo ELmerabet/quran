@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'AlQalamQuran';
+  src: url('../public/fonts/Al\ Majeed\ Quranic\ Font_shiped.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
