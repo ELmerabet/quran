@@ -22,20 +22,21 @@ const SurahDetails = () =>{
 if (!surahDetails) return <p>Loading ...</p>
 return (
   <div className="bg-slate-800 text-white text-center ">
-    <h1>
+    <h1 className="text-3xl font-bold pt-9">
       {surahDetails.name} ({surahDetails.englishName})
     </h1>
     <p>{surahDetails.englishNameTranslation}</p>
-    <div className="mt-10 mx-36">
+    <div className="mt-10 ">
       {surahDetails.ayahs.map((ayah) => (
-        <span className="py-16 " key={ayah.numberInSurah}>
-          <span className="font-alqalam text-2xl  ">
+        <div className="my-6 " key={ayah.numberInSurah}>
+          <p className="font-alqalam text-2xl  ">
             {ayah.text}
-            <span className="p-2 px-3 rounded-[50%] border border-gray-500 text-sm font-bold text-gray-600">
+            <span className="p-2 px-3 rounded-[50%] border border-gray-500 items-center justify-center text-sm font-bold text-gray-600">
               {ayah.numberInSurah}{" "}
             </span>
-          </span>
-        </span>
+          </p>
+          <hr className="mt-2 mx-28"/>
+        </div>
       ))}
     </div>
   </div>

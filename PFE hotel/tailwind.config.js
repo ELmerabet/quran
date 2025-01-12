@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        alqalam: ["AlQalamQuran", "serif"], // Register the AlQalam font
+        alqalam: ["AlQalamQuran", "serif"],
       },
     },
   },
