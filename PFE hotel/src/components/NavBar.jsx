@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between w-full">
             <Link to="/" className="flex-shrink-0">
               <img
-                src="./public/Black_and_White_Illustrative_Mosque_Logo-removebg-preview.png"
+                src="./logo.png"
                 alt=""
                 className="w-16 h-16"
               />
